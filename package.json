@@ -1,0 +1,22 @@
+{
+  "name": "teamprofile-generator",
+  "version": "1.0.0",
+  "description": "Takes user input to create a profile page for a team membership",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McClellan-Micah/teamProfile-generator.git"
+  },
+  "author": "https://github.com/McClellan-Micah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McClellan-Micah/teamProfile-generator/issues"
+  },
+  "homepage": "https://github.com/McClellan-Micah/teamProfile-generator#readme"
+}
