@@ -20,7 +20,9 @@
         </div>
         </header>
         <main class="container my-5">
-        
+            <div class="card">
+                
+            </div>
         </main>
         
     </body>
