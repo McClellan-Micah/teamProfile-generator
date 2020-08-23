@@ -5,13 +5,13 @@ const generateTeam = (team) => {
         <div class="card employee-card">
             <div class="card-header">
                 <h2 class="card-title">${manager.getName()}</h2>
-                <h3 class="card-title><i class="fas fa-mug-hot mr-2></i>${manager.getRole()}</h3>
+                <h3 class="card-title"><i class="fas mr-2"></i>${manager.getRole()}</h3>
             </div>
             <div class="card-body">
                 <ul class="list-group">
                     <li class="list-group-item">ID: ${manager.getId()}</li>
-                    <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}}">${manager.getEmail()}</a></li>
-                    <li class="list-group-item">Office number: ${manager.getOfficeNumber()}}</li>
+                    <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
+                    <li class="list-group-item">Office number: ${manager.getOfficeNumber()}</li>
                 </ul>
             </div>
         </div>
@@ -24,7 +24,7 @@ const generateTeam = (team) => {
         <div class="card employee-card">
             <div class="card-header">
                 <h2 class="card-title">${engineer.getName()}</h2>
-                <h3 class="card-title><i class="fas fa-mug-hot mr-2></i>${engineer.getRole()}</h3>
+                <h3 class="card-title"><i class="fas mr-2"></i>${engineer.getRole()}</h3>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -43,7 +43,7 @@ const generateTeam = (team) => {
         <div class="card employee-card">
             <div class="card-header">
                 <h2 class="card-title">${intern.getName()}</h2>
-                <h3 class="card-title><i class="fas fa-mug-hot mr-2></i>${intern.getRole()}</h3>
+                <h3 class="card-title"><i class="fas mr-2"></i>${intern.getRole()}</h3>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -92,26 +92,25 @@ module.exports = (team) => {
         <title>My Team</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/style.css">
         <script src="https://kit.fontawesome.com/c502137733.js"></script>   
     </head>
 
     <body>
-        <header>
-        <div class="row">
-            <div class="container flex-row justify-space-between align-center py-3">
-                <h1 class="page-title text-secondary py-2 px-3">My Team</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 jumbotron mb-3 team-heading">
+                    <h1 class="text-center">My Team</h1>
+                </div>
             </div>
         </div>
-        </header>
-        <main class="container my-5">
+        <div class="container">
             <div class="row">
-                <div class="team-area col-12 justify-content-center">
+                <div class="team-area col-12 d-flex justify-content-center">
                     ${generateTeam(team)}
                 </div>
             </div>
-        </main>
-        
+        </div>   
     </body>
     </html>
     `;
