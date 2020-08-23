@@ -25,3 +25,25 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
+
+## Installation
+
+Clone the repo to your local machine. Open the application in your terminal and type "Node Index.js"
+
+## Usage
+
+## License
+
+None
+
+## Questions
+
+If you have any questions about this project you can refer to my GitHub profile: [mcclellan-micah](https://github.com/mcclellan-micah)
+OR you may email me at mcclellan.micah.6@gmail.com
